@@ -81,10 +81,59 @@ la numeración y el consecutivo. Copiar el número provisional en la etiqueta y 
 
 > Sí el predio es rural y en el mismo se identifican multiples construcciones como zonas urbanizas se debe dar aviso al supervisor.
 
+# CONSTRUCCIONES
+Se generan las construcciones a partir de ortofoto apoyado de servicios de mapas base web de cada uno de las informalidades. Tipo de planta: Piso planta de ubicación: 1
+
+Se ajusta la construcción a la ortofoto. *Si hay construcciones en el terreno base se queda en el base y si se generan nuevas construcciones si se
+le ingresan a la nueva informalidad*
+
+# TIPO DE CAPTURA DE LA INFORMACIÓN : Siempre directo
+
+# DIRECCIÓN : Generarle la geometría debe generarse donde está el acceso del predio o de las construcciones.
+
+## URBANA 
+Con la información existente en el campo complemento debe llenarse los cambios de la dirección estructurada y si la información está incompleta debe terminar de llenarse con el recurso de Open Street Maps o Bing
+
+## RURAL 
+Cuando la dirección es rural Tipo de dirección: No estructurada Y se debe cambiar la información que existe en complemento y pegarla en Nombre predio
+
+# AREA CATASTRAL : Se actualiza el dato de área catastral a todos los terrenos creados
+
+# CORRECCIONES TOPOLÓGICAS 
+## REGLAS: 
+cca_terreno, cca_unidad construcción. No debe superponer. No debe tener saltos. No debe tener geometrías multiparte.No debe superponer con cca_unidadconstrucción con cca_terreno.No debe tener geometrías no válidas.
+
+# Herramienta comprobación de topologías
+# Códigos de revisión 
+> 01 Autointersecciones
+> 02 Revisar Construcciones
+> 03 Revisar Nodos
+> 04.1 CCA_Terreno sin puntos CCA_Direccion_2.0
+> 04.2 CCA_Direccion se encuentra fuera de CCA_Terreno (LIN)_2.0
+> 04.2 CCA_Direccion se encuentra fuera de CCA_Terreno (PTO)_2.0
 
 
+# Mejora
 
-   > "**" 
+# Georeferenciación: 
+
+Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
+
+
+> La mejora se puede extender en un terreno siempre y cuando se encuentre una división material utilizando los recursos de la ortoimágen, la capa de cercas y cuando se
+cuente con la herramienta streetview
+>  Cuando es una mejora en un terreno NUNCA se debe extender a la totalidad del terreno
+> Cuando no es posible interpretar en la ortoimagen una división material en el terreno se deja la mejora tal cual como se encuentra
+
+
+# CONSTRUCCIONES
+Se generan las construcciones a la mejora si esta se extiendea partir de ortofoto apoyado de servicios de mapas base web. Tipo de planta: Piso
+planta de ubicación: 1 Se ajusta la construcción a la ortofoto
+
+# NOVEDADES (IMPORTANTE)
+
+Se le debe generar una novedad en el apartado de novedad número predial: 1. Nueva novedad número predial 2. Copiar el mismo número predial de la marca 3. Tipo novedad: Cambio número predial mejora a informal 4.En la pestaña de Información catastral se cambia el número predial Se genera como número provisional como si fuera un informal
+
 
 ([FDA]( https://www.fda.gov/)) 
 
