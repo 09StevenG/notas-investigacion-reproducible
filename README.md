@@ -1,7 +1,9 @@
 # PRECAMPO TPZ COLOMBIA
 # Predio Formal
 
-# Georeferenciación: Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
+# Georeferenciación: 
+
+Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
 
 
 #LEYENDAS PARA DERIVADOS: 
