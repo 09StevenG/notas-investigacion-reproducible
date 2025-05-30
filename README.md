@@ -1,20 +1,18 @@
-# PRECAMPO
-## Formal
-### Georeferenciación: Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
+# PRECAMPO TPZ COLOMBIA
+# Predio Formal
+
+# Georeferenciación: Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
 
 
-### LEYENDAS PARA DERIVADOS: 
+#LEYENDAS PARA DERIVADOS: 
 
 1.En caso de identificar la misma cantidad de derivados: Se identifican por fotointerpretación una cantidad de derivados coincidente con la
-indicada por Jurídico, se realizan predios informales para su verificación e
-investigación de FMI en campo.
+indicada por Jurídico, se realizan predios informales para su verificación e investigación de FMI en campo.
 
 2. En caso de no identificar la misma cantidad de derivados: Se identifican por fotointerpretación una _cantidad de derivados diferente_ con la
-indicada por Jurídico, se realizan predios informales para su verificación e
-investigación de FMI en campo.
+indicada por Jurídico, se realizan predios informales para su verificación e investigación de FMI en campo.
 
-3. En caso de no identificar ningún derivado: No se identifican por fotointerpretación derivados indicados por Jurídico, se
-requiere verificación e investigación en campo.
+3. En caso de no identificar ningún derivado: No se identifican por fotointerpretación derivados indicados por Jurídico, se requiere verificación e investigación en campo.
 
 4. En caso de identificar los derivados en base: Se identifican los derivados por FMI en la base catastral
 
@@ -41,9 +39,18 @@ ajustando a los linderos a los predios colindantes según la ortofoto, sin embar
 
 >  4- En caso de no tener área registral, ni en cavida y linderos: No se indica área registral que por lo que no se solventa la marca de área*"
 
+# TIPO DE CAPTURA DE LA INFORMACIÓN : Siempre directo
+
+# DIRECCIÓN : Generarle la geometría debe generarse donde está el acceso del predio o de las construcciones.
 
 
-   > "*Al día de hoy, pocos resultados publicados son reproducibles en un sentido práctico. Verificarlos requiere de tanto esfuerzo como el que tomó crearlos. Después de un tiempo, incluso los autores son incapaces de reproducir sus propios resultados. Por esta razón, muchas personas ignoran la mayor parte de la literatura científica.*" (Claerbout, 1992)
+## URBANA 
+Con la información existente en el campo complemento debe llenarse los cambios de la dirección estructurada y si la información está incompleta debe terminar de llenarse con el recurso de Open Street Maps o Bing
+
+## RURAL 
+Cuando la dirección es rural Tipo de dirección: No estructurada Y se debe cambiar la información que existe en complemento y pegarla en Nombre predio
+
+   > "**" (Claerbout, 1992)
 
 Con el fin de resolver esta problemática, diferentes organizaciones, como el Comité Internacional de Publicaciones de Medicina o la Administración de Alimentos y Medicamentos de Estados Unidos ([FDA]( https://www.fda.gov/)), empezaron a publicar lineamientos para atacar los problemas derivados de una inadecuada documentación de los experimentos basados en ensayos aleatorios. De manera simultánea, se le dio más importancia a la calidad de los datos utilizados en las investigaciones. Así, por ejemplo, como se muestra en la figura 1, Mark Ziemann encontró en 2016 que un 20% de los artículos con archivos de datos suplementarios publicados en revistas científicas contenían errores en los nombres de los genes, debido a los parámetros de configuración de Microsoft Excel (Ziemann et al., 2016).
 
