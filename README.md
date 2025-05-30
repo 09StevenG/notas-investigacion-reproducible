@@ -3,8 +3,6 @@
 ### Georeferenciación: Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
 
 
-
-
 ### LEYENDAS PARA DERIVADOS: 
 
 1.En caso de identificar la misma cantidad de derivados: Se identifican por fotointerpretación una cantidad de derivados coincidente con la
@@ -21,8 +19,26 @@ requiere verificación e investigación en campo.
 4. En caso de identificar los derivados en base: Se identifican los derivados por FMI en la base catastral
 
 5. Sí en la pestaña de novedades y observaciones encontramos que tiene FMI DERIVADOS debemos buscarlos en la capa *cca_terrenos* en el espacio
-t_matricula inmobiliaria, si no se encuentran y el predio se le identifican divisiones con los insumos de Cercas, Muros, Drenajes... sí además indica el área de el FMI DERIVADO y esa área podemos ubicarla. Se creará un nuevo número provisional con una I_ Debe informar de la creación de un nuevo provisional para corroborar que el código
+t_matricula inmobiliaria, si no se encuentran y el predio se le identifican divisiones con los insumos e indica área de FMI DERIVADO y se ubica el área. Se creará un nuevo número provisional con una I_ Debe informar de la creación de un nuevo provisional para corroborar que el código
 esté correcto y que siga con el consecutivo cuando es rural Colocar el área operativa Condición de predio: Informal Copiar el número provisional en la etiqueta cuando generemos el terreno. Sin derecho interesado fuente.
+
+# MARCAS Y NOVEDADES
+
+Se realiza la revisión de las marcas y novedades Destinación económica sin unidad de construcción (se solventa con las construcciones) ¿
+
+El predio tiene la marca: Diferencia de área en porcentaje : Posee área registral : Modificado con el fin de llevar el área que posee el terreno en el QGIS lo más próxima al área que tenemos en la información registral. Predios URT no se debe modificar el área.
+
+ > "*Formato ajuste marca componente SIG: 1- En caso de modificar y solventar marca: Posterior al análisis de fotointerpretación
+se modifica el área del terreno ajustando los linderos a la ortofoto, el área modificada es coincidente con el área registral, requiere validación en campo para solventar marca.
+> 2- En caso de modificar y no solventar marca: Posterior al análisis de fotointerpretación se modifica el área del terreno
+ajustando los linderos a la ortofoto e insumos base, el área modificada no es coincidente
+con el área registral, no se solventa la marca y se requiere verificación en campo.
+> 2.1 En caso de modificar y no solventar la marca, por no alterar terrenos contiguos: Posterior al análisis de fotointerpretación, se modifica el área del terreno
+ajustando a los linderos a los predios colindantes según la ortofoto, sin embargo, el área modificada no es coincidente por que alteraría la de los terrenos contiguos, se requiere verificación en campo.
+> 3- En caso de no modificar: Posterior al análisis de fotointerpretación
+no es posible identificar linderos consistentes para modificar el área del terreno, se requiere verificación en campo para solventar la marca.
+>  4- En caso de no tener área registral, ni en cavida y linderos: No se indica área registral que por lo que no se solventa la marca de área*"
+
 
 
    > "*Al día de hoy, pocos resultados publicados son reproducibles en un sentido práctico. Verificarlos requiere de tanto esfuerzo como el que tomó crearlos. Después de un tiempo, incluso los autores son incapaces de reproducir sus propios resultados. Por esta razón, muchas personas ignoran la mayor parte de la literatura científica.*" (Claerbout, 1992)
