@@ -24,7 +24,7 @@ esté correcto y que siga con el consecutivo cuando es rural Colocar el área op
 
 # MARCAS Y NOVEDADES
 
-Se realiza la revisión de las marcas y novedades Destinación económica sin unidad de construcción (se solventa con las construcciones) ¿
+Se realiza la revisión de las marcas y novedades Destinación económica sin unidad de construcción (se solventa con las construcciones) 
 
 El predio tiene la marca: Diferencia de área en porcentaje : Posee área registral : Modificado con el fin de llevar el área que posee el terreno en el QGIS lo más próxima al área que tenemos en la información registral. Predios URT no se debe modificar el área.
 
@@ -67,21 +67,23 @@ cca_terreno, cca_unidad construcción. No debe superponer. No debe tener saltos.
 > 04.2 CCA_Direccion se encuentra fuera de CCA_Terreno (PTO)_2.0
 
 
+# Informal
+
+# Georeferenciación: 
+
+Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
+
+> Verificación del predio para conocer si debe ser creado otra informalidad utilizando el insumo de cercas, ortoimágen
+y en su defecto streetview.
+> Sí el predio es rural y en el mismo se identifican multiples construcciones como zonas urbanizas se debe dar aviso al supervisor.
 
 
 
 
    > "**" (Claerbout, 1992)
 
-Con el fin de resolver esta problemática, diferentes organizaciones, como el Comité Internacional de Publicaciones de Medicina o la Administración de Alimentos y Medicamentos de Estados Unidos ([FDA]( https://www.fda.gov/)), empezaron a publicar lineamientos para atacar los problemas derivados de una inadecuada documentación de los experimentos basados en ensayos aleatorios. De manera simultánea, se le dio más importancia a la calidad de los datos utilizados en las investigaciones. Así, por ejemplo, como se muestra en la figura 1, Mark Ziemann encontró en 2016 que un 20% de los artículos con archivos de datos suplementarios publicados en revistas científicas contenían errores en los nombres de los genes, debido a los parámetros de configuración de Microsoft Excel (Ziemann et al., 2016).
+([FDA]( https://www.fda.gov/)) 
+
 
 ![](https://github.com/09StevenG/notas-investigacion-reproducible/blob/master/img/ZiemannEtAlFig1.png)
 
-Figura 1.Resultados de la revisión sistemática de archivos Excel suplementarios. Fuente: (Ziemann et al., 2016).
-#### Bibliografía
-
-Bezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). Open Science Training Handbook. Zenodo. https://doi.org/10.5281/ZENODO.1212496
-
-Claerbout, J. F. (1992). Earth Soundings Analysis: Processing Versus Inversion. Blackwell Science Inc.
-
-Ziemann, M., Eren, Y., & El-Osta, A. (2016). Gene name errors are widespread in the scientific literature. Genome Biology, 17(1), 177. https://doi.org/10.1186/s13059-016-1044-7
