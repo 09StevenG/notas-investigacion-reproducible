@@ -28,11 +28,17 @@ Se realiza la revisión de las marcas y novedades Destinación económica sin un
 
 El predio tiene la marca: Diferencia de área en porcentaje : Posee área registral : Modificado con el fin de llevar el área que posee el terreno en el QGIS lo más próxima al área que tenemos en la información registral. Predios URT no se debe modificar el área.
 
-> "*Formato ajuste marca componente SIG: 1- En caso de modificar y solventar marca: Posterior al análisis de fotointerpretación se modifica el área del terreno ajustando los linderos a la ortofoto, el área modificada es coincidente con el área registral, requiere validación en campo para solventar marca.
+> "*Formato ajuste marca componente SIG:
+
+>  1- En caso de modificar y solventar marca: Posterior al análisis de fotointerpretación se modifica el área del terreno ajustando los linderos a la ortofoto, el área modificada es coincidente con el área registral, requiere validación en campo para solventar marca.
+
 > 2- En caso de modificar y no solventar marca: Posterior al análisis de fotointerpretación se modifica el área del terreno ajustando los linderos a la ortofoto e insumos base, el área modificada no es coincidente con el área registral, no se solventa la marca y se requiere verificación en campo.
+
 > 2.1 En caso de modificar y no solventar la marca, por no alterar terrenos contiguos: Posterior al análisis de fotointerpretación, se modifica el área del terreno
 ajustando a los linderos a los predios colindantes según la ortofoto, sin embargo, el área modificada no es coincidente por que alteraría la de los terrenos contiguos, se requiere verificación en campo.
+
 > 3- En caso de no modificar: Posterior al análisis de fotointerpretación no es posible identificar linderos consistentes para modificar el área del terreno, se requiere verificación en campo para solventar la marca.
+
 >  4- En caso de no tener área registral, ni en cavida y linderos: No se indica área registral que por lo que no se solventa la marca de área*"
 
 
