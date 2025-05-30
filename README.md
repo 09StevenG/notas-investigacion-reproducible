@@ -1,8 +1,9 @@
 # PRECAMPO
 ## Formal
+### Georeferenciación: Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
 
-### Georeferenciación: Se pueden apoyar utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro
-Vía_Ferrea
+
+
 
 ### LEYENDAS PARA DERIVADOS: 
 
