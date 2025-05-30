@@ -75,15 +75,21 @@ Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R,
 
 > Verificación del predio para conocer si debe ser creado otra informalidad utilizando el insumo de cercas, ortoimágen
 y en su defecto streetview.
+
+_Se genera la informalidad del predio Colocar en el Identificador único de operación I_ y verificar con el supervisor que el provisional a crear esté correcto según
+la numeración y el consecutivo. Copiar el número provisional en la etiqueta y colocar el área operativa, la condición de predio sería Informal Al espacio restante del terreno original *NO* se le genera una nueva informalidad_
+
 > Sí el predio es rural y en el mismo se identifican multiples construcciones como zonas urbanizas se debe dar aviso al supervisor.
 
 
 
 
-   > "**" (Claerbout, 1992)
+   > "**" 
 
 ([FDA]( https://www.fda.gov/)) 
 
 
 ![](https://github.com/09StevenG/notas-investigacion-reproducible/blob/master/img/ZiemannEtAlFig1.png)
+
+
 
