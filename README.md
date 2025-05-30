@@ -26,7 +26,7 @@ Se realiza la revisión de las marcas y novedades Destinación económica sin un
 
 El predio tiene la marca: Diferencia de área en porcentaje : Posee área registral : Modificado con el fin de llevar el área que posee el terreno en el QGIS lo más próxima al área que tenemos en la información registral. Predios URT no se debe modificar el área.
 
-> "*Formato ajuste marca componente SIG:
+> Formato ajuste marca componente SIG:
 
 >  1- En caso de modificar y solventar marca: Posterior al análisis de fotointerpretación se modifica el área del terreno ajustando los linderos a la ortofoto, el área modificada es coincidente con el área registral, requiere validación en campo para solventar marca.
 
@@ -37,7 +37,7 @@ ajustando a los linderos a los predios colindantes según la ortofoto, sin embar
 
 > 3- En caso de no modificar: Posterior al análisis de fotointerpretación no es posible identificar linderos consistentes para modificar el área del terreno, se requiere verificación en campo para solventar la marca.
 
->  4- En caso de no tener área registral, ni en cavida y linderos: No se indica área registral que por lo que no se solventa la marca de área*"
+>  4- En caso de no tener área registral, ni en cavida y linderos: No se indica área registral que por lo que no se solventa la marca de área
 
 # TIPO DE CAPTURA DE LA INFORMACIÓN : Siempre directo
 
@@ -49,6 +49,25 @@ Con la información existente en el campo complemento debe llenarse los cambios 
 
 ## RURAL 
 Cuando la dirección es rural Tipo de dirección: No estructurada Y se debe cambiar la información que existe en complemento y pegarla en Nombre predio
+
+
+# CORRECCIONES TOPOLÓGICAS 
+## REGLAS: 
+cca_terreno, cca_unidad construcción. No debe superponer. No debe tener saltos. No debe tener geometrías multiparte.No debe superponer con cca_unidadconstrucción con cca_terreno.No debe tener geometrías no válidas.
+
+# Herramienta comprobación de topologías
+# Códigos de revisión 
+> 01 Autointersecciones
+> 02 Revisar Construcciones
+> 03 Revisar Nodos
+> 04.1 CCA_Terreno sin puntos CCA_Direccion_2.0
+> 04.2 CCA_Direccion se encuentra fuera de CCA_Terreno (LIN)_2.0
+> 04.2 CCA_Direccion se encuentra fuera de CCA_Terreno (PTO)_2.0
+
+
+
+
+
 
    > "**" (Claerbout, 1992)
 
