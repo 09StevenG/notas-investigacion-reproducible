@@ -6,7 +6,7 @@
 Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
 
 
-#LEYENDAS PARA DERIVADOS: 
+# LEYENDAS PARA DERIVADOS: 
 
 1.En caso de identificar la misma cantidad de derivados: Se identifican por fotointerpretación una cantidad de derivados coincidente con la
 indicada por Jurídico, se realizan predios informales para su verificación e investigación de FMI en campo.
