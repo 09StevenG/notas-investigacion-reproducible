@@ -66,6 +66,7 @@ cca_terreno, cca_unidad construcción. No debe superponer. No debe tener saltos.
 > 04.2 CCA_Direccion se encuentra fuera de CCA_Terreno (LIN)_2.0
 > 04.2 CCA_Direccion se encuentra fuera de CCA_Terreno (PTO)_2.0
 
+## Predios URT no se debe modificar el área.
 
 # Informal
 
