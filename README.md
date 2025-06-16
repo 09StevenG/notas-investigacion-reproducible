@@ -1,12 +1,12 @@
 # PRECAMPO TPZ COLOMBIA
 # Predio Formal
 
-# Georeferenciación: 
+## Georeferenciación: 
 
 Utilizando las capas de: nombre_geográfico, Cercas, Construcción_R, Drenaje_R, Drenaje_L, Límite_vía y Muro Vía_Ferrea ([INSUMOS](https://drive.google.com/drive/folders/1PZ154pDtyj1r31IeuHY7DkVniptOmTHE))
 
 
-# LEYENDAS PARA DERIVADOS: 
+## LEYENDAS PARA DERIVADOS: 
 
 1.En caso de identificar la misma cantidad de derivados: Se identifican por fotointerpretación una cantidad de derivados coincidente con la
 indicada por Jurídico, se realizan predios informales para su verificación e investigación de FMI en campo.
@@ -178,8 +178,7 @@ Cuando es rural Poner los 30 dígitos del provisional que se encuentran despues 
 Colocar el área operativa Condición de predio: No propiedad horizontal Tipo: Presunto Baldio
 En derecho interesado fuente Tipo de derecho = Dominio Urbano = Municipio Rural = LA NACION
 
-Fecha de inicio de tenencia: Urbanos:
-# 31/12/1959 Rurales: 04/12/1936 
+# Fecha de inicio de tenencia: Urbanos 31/12/1959 Rurales: 04/12/1936 
 
 Cuando es la nación el NIT=0
 
@@ -187,11 +186,11 @@ Fuente administrativa=Sin documento Copiar el número provisional en la etiqueta
 
 # NIT MUNICIPIOS: 
 
-alcaldía de Zambrano: 890481177-7
-alcaldía de San Estanislao: 890481310-0 
-alcaldía de Los Palmitos: 892201287-6 
-alcaldía de Morroa: 892201296-2 
-alcaldía de Chalan: 892200740-7
+- alcaldía de Zambrano: 890481177-7
+-  alcaldía de San Estanislao: 890481310-0 
+- alcaldía de Los Palmitos: 892201287-6 
+- alcaldía de Morroa: 892201296-2 
+- alcaldía de Chalan: 892200740-7
 
 # TIPO DE CAPTURA DE LA INFORMACIÓN Siempre directo
 
