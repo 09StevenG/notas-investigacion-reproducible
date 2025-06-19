@@ -39,7 +39,7 @@ ajustando a los linderos a los predios colindantes según la ortofoto, sin embar
 
 > 3- En caso de no modificar: Posterior al análisis de fotointerpretación no es posible identificar linderos consistentes para modificar el área del terreno, se requiere verificación en campo para solventar la marca.
 
->  4- En caso de no tener área registral, ni en cavida y linderos: No se indica área registral que por lo que no se solventa la marca de área
+>  4- En caso de no tener área registral, ni en cavida y linderos: No se indica área registral por lo que no se solventa la marca de área
 
 # TIPO DE CAPTURA DE LA INFORMACIÓN : Siempre directo
 
